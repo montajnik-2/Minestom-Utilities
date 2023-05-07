@@ -6,7 +6,7 @@ plugins {
 
 var minestomVersion = "85febebd09"
 
-group = "org.montajnik-2.utils"
+group = "fr.bretzel.minestom.utils"
 version = "1.0.0"
 
 repositories {
@@ -19,5 +19,5 @@ dependencies {
     implementation("com.github.Minestom:Minestom:$minestomVersion")
 
     //ALS Lib
-    implementation("com.github.montajnik-2:Minestom-States:cb880bf316")
+    implementation("com.github.montajnik-2:Minestom-States:5a94fee58b")
 }
