@@ -4,9 +4,9 @@ plugins {
     java
 }
 
-var minestomVersion = "42195c536b"
+var minestomVersion = "85febebd09"
 
-group = "fr.bretzel.minestom.utils"
+group = "org.montajnik-2.utils"
 version = "1.0.0"
 
 repositories {
@@ -19,5 +19,5 @@ dependencies {
     implementation("com.github.Minestom:Minestom:$minestomVersion")
 
     //ALS Lib
-    implementation("com.github.ALS-Project:Minestom-States:d42b0086f1")
+    implementation("com.github.montajnik-2:Minestom-States:cb880bf316")
 }
